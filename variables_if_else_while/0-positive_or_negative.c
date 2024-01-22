@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-#include <time.h>
+#include <stdio.h>
 
 /**
- * main - displays whether random number is pos, neg, or equal
- * Return: always return 0
- */
+*main - displays whether random number is pos, neg, or equal
+*Return: always return 0
+*/
 
 int main(void)
 {
@@ -15,9 +15,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-	        printf("%d is positive\n", (n));
+		printf("%d is positive\n", (n));
 	}
-        else if (n == 0)
+	else if (n == 0)
 	{
 		printf("%d is zero\n", (n));
 	}
@@ -26,5 +26,5 @@ int main(void)
 		printf("%d is negative\n", (n));
 	}
 
-        return (0);
-}	
+	return (0);
+}
