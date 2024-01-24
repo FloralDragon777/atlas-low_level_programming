@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  * main - write a program that prints putchar
  *
@@ -9,5 +9,5 @@ int main(void)
 {
 	printf("_putchar\n");
 
-	return(0);
+	return (0);
 }
