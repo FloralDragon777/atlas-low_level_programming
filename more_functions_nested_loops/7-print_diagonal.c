@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_diagonal- prints diagonal slashes
+ * print_diagnal- prints diagonal slashes
  * @n: number of diagonal things
  *
  * Return: return is void
@@ -21,6 +21,6 @@ void print_diagonal(int n)
 	}
 	if (n <= 0)
 	{
-		_putchar('\n');
+	       _putchar('\n');
 	}
 }
