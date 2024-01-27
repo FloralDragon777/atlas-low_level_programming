@@ -1,30 +1,26 @@
 #include "main.h"
 /**
- * print_diagnal- prints diagonal slashes
+ * print_diagonal- prints diagonal slashes
  * @n: number of diagonal things
  *
  * Return: return is void
  */
 void print_diagonal(int n)
 {
-	int a = 0;
-	int b = 0;
+	int a;
+	int b;
 
-	if (n > 0)
+	for (a = 0; a < n; a++)
 	{
-		while (a < n)
+		for (b = 1; b <= a; b++)
 		{
-			while (b < a)
-			{
-				_putchar(' ');
-				b++;
-			}
-			a++;
-			b = 0;
-			_putchar('\\');
-			_putchar('\n');
+			_putchar(' ');
 		}
+		_putchar('\\');
+		_putchar('\n');
 	}
-	else
-	_putchar('\n');
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
 }
