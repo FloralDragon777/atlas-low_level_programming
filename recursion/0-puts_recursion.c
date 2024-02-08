@@ -1,4 +1,5 @@
 #include "main.h"
+#include "main.c"
 
 /**
  * _puts- outputs the characters and strings
@@ -16,5 +17,4 @@ void _puts_recursion(char *s)
 	}
 	_putchar(*s);
 	_puts_recursion(s+1)
-}
-	
+}	
