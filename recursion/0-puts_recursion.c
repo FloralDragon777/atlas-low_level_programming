@@ -1,5 +1,5 @@
 #include "main.h"
-#include "0-main.c"
+#include "main.c"
 
 /**
  * _puts- outputs the characters and strings
