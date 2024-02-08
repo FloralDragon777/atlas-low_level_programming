@@ -1,8 +1,7 @@
 #include "main.h"
-#include "main.c"
 
 /**
- * _puts- outputs the characters and strings
+ * _putchar - outputs the characters and strings
  * @s: the string that prints
  * 
  * Return: return is void 
@@ -12,7 +11,7 @@ void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		_put(\n');
+		_putchar(\n');
 		return;
 	}
 	_putchar(*s);
